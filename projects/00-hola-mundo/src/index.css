@@ -1,6 +1,14 @@
-svg {
-	width: 48px;
-	height: auto;
-	display: block;
-	margin: auto;
+body {
+	margin: 0;
+	background: #222;
+	color: white;
+	font-family: system-ui;
+	display: grid;
+	place-content: center;
+	min-height: 100vh;
+}
+
+.App {
+	display: grid;
+	grid-gap: 8px;
 }
