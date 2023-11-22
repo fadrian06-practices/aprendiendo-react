@@ -1,0 +1,30 @@
+body {
+	background: #222;
+	color: white;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	font-family: system-ui;
+	text-align: center;
+}
+
+section {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	align-items: center;
+	gap: 2rem;
+}
+
+section img {
+	max-width: 320px;
+}
+
+@media (max-width: 612px) {
+	section {
+		grid-template-columns: 1fr;
+		justify-items: center;
+		gap: 0;
+	}
+}
